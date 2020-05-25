@@ -181,13 +181,13 @@ $grid.masonry({
 
 */
 
-let grid = document.querySelector('.grid');
+/*let grid = document.querySelector('.grid');
 let msnry = new Masonry( grid, {
     // options...
     itemSelector: '.grid-item',
     columnWidth: 370,
     gutter:17,
-});
+});*/
 
 
 
