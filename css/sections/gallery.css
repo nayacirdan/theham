@@ -5,9 +5,9 @@
 
 .grid {
     margin-top: 40px;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
+    display: block;
+/*    flex-direction: row;
+    flex-wrap: wrap;*/
 }
 .grid-item {
     margin-bottom: 17px;
