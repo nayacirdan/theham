@@ -168,6 +168,7 @@ $('.reviewers-nav').slick({
     autoplaySpeed: 5000
 });
 
+/*
 const $grid = $('.grid');
 
 $grid.masonry({
@@ -178,6 +179,7 @@ $grid.masonry({
     stagger: 200
 });
 
+*/
 
 
 
