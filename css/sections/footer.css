@@ -1,0 +1,13 @@
+.footer {
+    margin-top: 82px;
+    box-sizing: border-box;
+    padding: 50px 10px;
+    text-align: center;
+    background-color: var(--footer-blue);
+    color:#aeaeae;
+    font-weight: 300;
+    font-size: 14px;
+}
+.footer a {
+    color:var(--green)
+}

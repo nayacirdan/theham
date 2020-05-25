@@ -1,0 +1,23 @@
+.cta-section {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.78), rgba(0, 0, 0, 0.78)), url("../../img/sections/section-2.jpg");
+    background-size: cover;
+    background-position: center;
+    color:var(--light-grey);
+    text-align: center;
+    padding: 125px 0;
+    margin-top: 100px;
+}
+
+.cta-title {
+    font-size: 40px;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: var(--green);
+    margin-bottom: 35px;
+}
+
+.cta-details {
+    margin-bottom: 75px;
+    font-size: 16px;
+    font-weight: 300;
+}

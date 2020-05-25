@@ -1,0 +1,162 @@
+.header {
+    background-color: var(--header-khaki);
+    width:100%;
+    color: #fff;
+    height:120px;
+    display: flex;
+}
+
+.section-header {
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: space-between;
+}
+
+.header-logo {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color:#fff;
+    padding: 10px 0;
+}
+
+.logo-img {
+    display: block;
+    width:60px;
+    height: 70px;
+    margin-right: 10px;
+    background-position: 0 0;
+    opacity: 1;
+    font-size: 40px;
+    font-weight: 700;
+    position: relative;
+}
+
+.logo-letter {
+    position: absolute;
+    left:14px;
+    top:14px;
+    right:0;
+    bottom:0;
+}
+
+.logo-title {
+    font-size: 32px;
+    font-weight: 400;
+}
+
+.title--green {
+    font-weight: 700;
+    color: var(--green);
+}
+
+.nav-bar {
+    display: flex;
+    min-height: 120px;
+}
+
+.nav-list {
+    display: flex;
+    box-sizing: border-box;
+}
+
+.nav-item {
+    display: flex;
+    margin: 0 auto;
+    align-content: center;
+    padding-right:20px;
+    flex-shrink: 1;
+}
+
+.nav-item:last-child {
+    padding-right: 0;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: var(--light-grey);
+    text-transform: uppercase;
+    display: flex;
+    align-items: center;
+    font-size: 13px;
+    font-weight: 700;
+    margin:auto;
+    height: 100%;
+    box-sizing: content-box;
+}
+
+.nav-link.icon--search {
+    width:22px;
+    background-position: -798px 47px;
+    border:none;
+}
+
+.nav-link:hover {
+    border-bottom: 2px solid var(--green);
+    color: var(--green);
+}
+.nav-link.icon--search {
+    border:none;
+}
+
+
+/*SECTION INTRO*/
+
+
+.intro {
+    background-image: url("../../img/sections/section-1(header).jpg");
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+.promo {
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    color:#fff;
+    flex-direction: column;
+}
+
+.promo-text-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 245px;
+}
+.promo-title{
+    font-size:35px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.promo-title>strong {
+    color: var(--green);
+}
+
+.promo-slogan{
+    display: block;
+    font-size: 79px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin: 20px 0;
+}
+
+.promo-cta {
+    font-size: 35px;
+    font-weight: 300;
+    color: var(--grey);
+}
+
+.promo-btn-container{
+    margin-top:142px;
+    margin-bottom: 245px;
+}
+
+.promo-btn-container .btn:first-child {
+    margin-right: 30px;
+}
+
+.btn--blue {
+    background-color: var(--blue);
+}

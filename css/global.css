@@ -1,0 +1,72 @@
+@import "reset.css";
+
+:root {
+    --green:#18cfab;
+    --light-green:#f8fcfe;
+    --dark-blue:#1c2a33;
+    --blue:#00cbf6;
+    --grey:#d4d4d4;
+    --light-grey:#b8b8b8;
+    --medium-grey:#777;
+    --footer-blue:#22353f;
+    --header-khaki:rgba(73,71, 63, 0.6); /*0.6*/
+    --footer-text:#aeaeae;
+}
+
+
+body {
+   font-family: 'Montserrat', sans-serif;
+   font-weight: 400;
+    font-size: 14px;
+}
+
+.btn {
+    width:166px;
+    padding: 25px 13px;
+    background-color: var(--green);
+    color:#fff;
+    border: none;
+    border-top: 4px solid #fff;
+    border-radius: 5px;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 13px;
+}
+
+.section-title {
+    font-size: 36px;
+    text-align: center;
+    color: #4e4e4e;
+}
+
+.section-title:after {
+    content: '';
+    display: block;
+    border-top: 1px solid var(--green);
+    border-bottom: 1px solid var(--green);
+    width:75px;
+    height: 3px;
+    transform: skewX(70deg);
+    text-align: center;
+    margin: 37px auto 0;
+}
+
+.wrapper {
+    min-width: 1200px;
+    width:100%;
+}
+
+.container {
+    width:1160px;
+    margin: 0 auto;
+}
+.icon {
+    background: url('../img/icons/icons-sprite.png') no-repeat;
+}
+
+h3 {
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 14px;
+    color:  var(--green);
+}

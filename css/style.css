@@ -1,0 +1,13 @@
+@import "global.css";
+@import "sections/header.css";
+@import "sections/animation.css";
+@import "sections/advantages.css";
+@import "sections/services.css";
+@import "sections/cta.css";
+@import "sections/portfolio.css";
+@import "sections/news.css";
+@import "sections/reviews.css";
+@import "sections/gallery.css";
+@import "sections/footer.css";
+
+
